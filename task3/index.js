@@ -1,5 +1,6 @@
-const { developers } = require('./data');
-const cleanData = developers.map((developer) => {
+const data = require('./data');
+
+const cleanData = data.map((developer) => {
     const userId = developer.user._id;
     const name = developer.user.name;
     const startDate = developer.startDate;
@@ -21,4 +22,5 @@ const aggData = cleanData.reduce((acc, curr) => {
 
     return acc;
 }, []);
-console.log(aggData);
+
+console.log(JSON.stringify(aggData, null, 2));
