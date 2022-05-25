@@ -3,7 +3,7 @@ atleastten = 8884, 0.20s
 all = 24, 0.16s
 uniques = 9603, 0.13s
 
-2kk_words_400x400 = set
+2kk_words_400x400
 atleastten = 73245, 2.74s
 all = 441, 1.28s
 uniques = 129240, 1.87s
